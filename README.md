@@ -3,8 +3,8 @@ wasm media codec based on ffmpeg
 
 # History
 Nov 2018. I'm searching a way to decode hevc data in browser. As wiki says https://en.wikipedia.org/wiki/HTML5_video, only safari/android support
-hevc, thus using mse api is not capable. When in node it can be done easily by calling native lib (like ffmpeg), so port ffmepg as a wasm module
-can do the same thing.
+hevc, thus using mse api is not capable. In node this can be done easily by calling native lib (like ffmpeg), so port ffmepg as a wasm module
+may do the same thing.
 
 # Process
 1. compile ffmpeg with emcripten and got "*.bc" libs. 
